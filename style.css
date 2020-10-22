@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+body {
+font-family:"Roboto Light",sans-serif;
+  background-image: url("google.png");
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoraton:none;
+
+
+
+}
+.sidebar {
+    position:fixed;
+    left:0;
+    width:250px;
+    height:100%;
+    background:#042331;
+}
+.sidebar header{
+    font-size:22px;
+    color:white;
+    text-align:center;
+    line-height:70px;
+    background:#063146;
+    user-select:none;
+    font-family: "monospace";
+}
+.sidebar ul a {
+    display:block;
+    height:100%;
+    width:100%;
+    line-height: 65px;
+    font-size:20px;
+    color:white;
+    padding-left:40px;
+    box-sizing:border-box;
+border-top:1px solid rgba(255,255,255,.1);
+    borer-bottom:1px solid black;
+    transition: .4s;
+
+}
+ul li:hover a{
+    padding-left:50px;
+
+}
+p {
+    background-color: #063146;
+    font-family: "Roboto Light";
+    font-size: larger;
+}
+.container{
+    position:center;
+    padding:30px 20px 30px;
+
+}
